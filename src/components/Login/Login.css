@@ -1,0 +1,100 @@
+.login {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(#0000007e, #0000007e), url('../../Assets/Netflix_Background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+  }
+.login-logo{
+    width: 150px; 
+    padding: 30px;
+}
+.login-form{
+    width: 100%;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 60px;
+    margin: auto;
+}
+.login-form .signup-text{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+.login-form input{
+    width: 100%;
+    background: #333;
+    height: 50px;
+    color: white;
+    margin: 12px 0%;
+    padding: 5px 5px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+}
+.login-form input::placeholder{
+    font-size: 16px;
+    font-weight: 500px;
+}
+.login-form button{
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 16px;
+    background: #e50914;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+}
+.form-help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #b3b3b3;
+    font-size: 13px;
+
+}
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+
+}
+.remember input{
+    width: 18px;
+    height: 18px;
+}
+.form-switch{
+    margin-top: 40px;
+    color: #737373;
+}
+.form-switch span{
+    margin-left: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}
+.form-switch span:hover{
+    text-decoration: underline;
+}
+.Gohome-Area{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: end;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.Gohome-Area p{
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 2%;
+  font-size: 14px;
+  color: #e5e5e5;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), 10%, transparent);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navbar-left img {
+  width: 90px;
+}
+
+.navbar-left ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar-left ul li {
+  cursor: pointer;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  margin-right: 30px;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.children-text {
+  font-size: 14px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  position: relative;
+}
+
+.profile-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  object-fit: cover;
+margin-right: 10px;
+}
+
+.sign-out-dropdown {
+  display: none;
+  position: absolute;
+  top: 28px;
+  right: 0;
+  background-color: #222;
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.profile-section:hover .sign-out-dropdown {
+  display: block;
+  text-decoration: underline;
+}
+.profile-section:hover .sign-out-dropdown p{
+  margin-bottom: 10px;
+}
+
+.LoginLink{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
