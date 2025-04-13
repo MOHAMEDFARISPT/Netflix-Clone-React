@@ -3,9 +3,9 @@ import { initializeApp } from "firebase/app";
 import {createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword, signOut} from 'firebase/auth'
 import {getFirestore,addDoc,collection} from 'firebase/firestore'
 import { toast } from "react-toastify";
-
+const api_key=import.meta.env.VITE_FIREBASE_API_KEY
 const firebaseConfig = {
-  apiKey: "AIzaSyDo64Bgo4GZS9GhJE93Y6KD24ba5CYKFno",
+  apiKey: api_key,
   authDomain: "netflix-clone-248f1.firebaseapp.com",
   projectId: "netflix-clone-248f1",
   storageBucket: "netflix-clone-248f1.firebasestorage.app",
